@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(node check-glb-animations.js:*)",
+      "Bash(node check-glb-animations.cjs:*)",
+      "Bash(npx:*)",
+      "Bash(node check-bones.cjs:*)",
+      "Bash(npm test)",
+      "Bash(npm test:*)",
+      "Bash(findstr:*)",
+      "Bash(node -e:*)",
+      "Bash(node debug-buffer.js:*)",
+      "Bash(node:*)",
+      "Bash(Select-Object -First 50)",
+      "Bash(npm run build:*)",
+      "Bash(exit 0)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

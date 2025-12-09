@@ -1,0 +1,7 @@
+{
+  "description": "Lexi AI Assistant - Voice & Avatar Interface",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "name": "Lexi"
+}

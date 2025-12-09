@@ -1,0 +1,6 @@
+@echo off
+echo Starting Kokoro TTS...
+start cmd /k "cd kokoro && launch_demo.exe"
+start cmd /k "node server.js"
+echo Starting Lexi Frontend...
+npm run dev

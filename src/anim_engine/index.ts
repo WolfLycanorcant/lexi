@@ -1,6 +1,6 @@
 // Central export file for the animation engine
 
-export { BoneFinder, BoneAnimationController } from './bone_system';
+export { BoneFinder, BoneAnimationController, SkeletonMap } from './bone_system';
 export {
   BONE_ANIMATION_LIBRARY,
   BONE_ANIMATION_NAMES,
@@ -11,5 +11,4 @@ export {
   FULL_BODY_ANIMATIONS,
   animateBone,
   type BodyAnimation,
-  type SkeletonMap
 } from './library';
